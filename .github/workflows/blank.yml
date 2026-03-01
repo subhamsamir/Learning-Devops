@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
-      - run: echo "Code Clone from GitHub"
+        run: echo "Code Clone from GitHub"
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Build Docker Container
-      - run: echo "Docker Container build"
+        run: echo "Docker Container build"
   test:
     runs-on: ubuntu-latest
     steps:
